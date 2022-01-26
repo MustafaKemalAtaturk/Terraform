@@ -32,7 +32,7 @@ resource "aws_s3_bucket_object" "homeworks" {
 }
 resource "aws_s3_bucket_object" "test_object" {
   bucket = "devopseduit"
-  key    = "test_object_file"
+  key    = "Homeworks/test_object_file.txt"
   source = "files/test_object.txt"
   etag = filemd5("files/test_object.txt")
 }
