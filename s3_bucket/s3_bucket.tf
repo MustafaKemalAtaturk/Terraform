@@ -14,5 +14,5 @@ resource "aws_s3_bucket" "devopseduit" {
 resource "aws_s3_bucket_object" "homeworks" {
     bucket = "devopseduit"
     acl    = "private"
-    key    = "Homework/"
+    key    = "Homeworks/"
 }
