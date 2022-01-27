@@ -1,6 +1,1 @@
-
-variable "name" {
-    type = string
-}
-variable "surname" {}
-variable "username" {}
+variable "notes" = [note1,note2,note3]
